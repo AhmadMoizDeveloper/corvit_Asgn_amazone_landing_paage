@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    background-color: #14202f;
+    padding: 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 70px;
+    width: 150px;
+    margin-left: 0;
+
+}
+.logo{
+    background-image: url(img/amazon_logo.png);
+    cursor: pointer;
+    height: 70px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 1px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 1px;
+}
+.add-first{
+    color: #cccc;
+    font-size: 0.70rem;
+    margin-left: 18px;
+    font-weight: 700;
+    font-size: 11px;
+}
+.add-sec{
+    font-size: 0.90rem;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-add{
+    padding: 5px 5px 5px 5px;
+    margin-right: 9px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffbd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-search:hover{
+    border: 3.5px solid #ffbd68;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    color: rgb(122, 121, 121);
+    font-size: 14px;
+    cursor: pointer;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    color: black;
+}
+.nav-sigin{
+    padding: 7px;
+    cursor: pointer;
+}
+.nav-return{
+    padding: 7px;
+    cursor: pointer;
+}
+span{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.nav-cart{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-cart-plus{
+    font-size: 35px;
+}
+.nav-p{
+    padding: 20px 0 0 0;
+    font-weight: 800;
+    font-size: 14px;
+}
+/* creat panel it mean second navbar */
+.panel{
+    /* border-top: .50px solid #707070; */
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+/*     padding: 10px; */
+}
+.panel-option p{
+    display: inline;
+    word-spacing: 9px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+}
+.panel-option{
+    width: 95%;
+}
+.panel-all{
+    padding: 10px;
+    font-weight: bold;
+}
+/* hero section start ho gya ha  */
+.hero-section{
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    height: 300px;
+}
+/* shop section start ho gya ha */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+.box{
+/*     border: 2px solid black;
+ */ background-color: white;
+    height: 330px;
+    width: 20%;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 
+    2px 2px 2px rgba(0, 0, 0, 0.5), /* Top-Left Shadow */
+    2px 2px 2px rgba(0, 0, 0, 0.5),  /* Top-Right Shadow */
+    2px 2px 2px rgba(0, 0, 0, 0.5),  /* Bottom-Left Shadow */
+    2px 2px 2px rgba(0, 0, 0, 0.5);  /* Bottom-Right Shadow */
+}
+/* is sy nichy */
+.box-img0{
+    background-image: url(img/2_game.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img1{
+    background-image: url(img/3_man.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img2{
+    background-image: url(img/4_ram.jpg);
+    height: 80px;
+    width: 260px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 110px;
+    margin-top: 80px;
+}
+.box-img3{
+    background-image: url(img/5_game.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img4{
+    background-image: url(img/6_bag.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img5{
+    background-image: url(img/7_keyboard.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img6{
+    background-image: url(img/8_moniter.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img7{
+    background-image: url(img/9_chair.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img8{
+    background-image: url(img/10_game_mobile.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img9{
+    background-image: url(img/11_taken8.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.box-img10{
+    background-image: url(img/16_gloves.jpg);
+    height: 50%;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 54px;
+}
+.box-img11{
+    background-image: url(img/14_vision_case.jpg);
+    height: 250px;
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+/* is sy uper */
+.box1 h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+/* .nvme{
+} */
+.box1 a{
+    text-decoration: none;
+    padding: 3px;
+}
+.box1 a:hover{
+    color: rgb(0, 0, 147);
+    background-color: rgba(192, 192, 192, 0.188);
+    padding: 3px;
+    border-radius: 3px;
+}
+/* section start ho rha ha */
+.section_h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    padding: 30px 0 0 5px;
+}
+.section_a{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px 0 10px 0;
+    margin: 13px 42% 7px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+}
+.section_a:hover{
+    background-color: rgba(251, 255, 0, 0.653);
+}
+.new_customer{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 ;
+    margin-bottom: 20px;
+}
+.new_customer a{
+   /*  text-decoration: none; */
+    color: rgb(0, 7, 220);
+}
+.new_customer a:hover{
+    color: rgb(0, 0, 71);
+}
+/* footer start ho rha ha */
+.foot-panel1{
+    background-color: #2c3a4a;
+    /* text-align: center; */
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+.foot-panel1:hover{
+    background-color: #2b3847f2;
+}
+.back_to_top{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ul p{
+    font-size: 1rem;
+}
+ul a{
+    display: block;
+    font-size: 0.80rem;
+    color: #dddddd;
+    margin-top: 10px;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.foot-panel3{
+    background-color: #232f3e;
+    border-top: .50px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-footer{
+    background-image: url(img/amazon_logo.png);
+    height: 70px;
+    width: 150px;
+    background-size: cover;
+}
+.foot-panel4{
+    color: white;
+    background-color: #222f3d;
+/*     display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+.pages a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+    
+}
+.copy-right{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
